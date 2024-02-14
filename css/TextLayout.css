@@ -1,0 +1,56 @@
+#root
+{
+    max-width: 1400px;
+    margin: 0 auto;
+} 
+h1
+{
+    font-size: 5em;
+    font-family:sans-serif,Georgia;
+    text-align: left;
+}
+table, th, td
+{
+    border:1px solid black;
+    font-family: "Trirong", serif;
+    text-align: center;
+}
+h2
+{
+    font-size: 2em;
+    font-family: "Trirong", serif;
+    text-align: left;
+
+}
+h3
+{
+    font-size: 2.5em;
+    font-family: "Trirong", serif;
+    text-align: left;
+    background-color: #7c1414;
+    text-decoration-color: coral;
+}
+img
+{
+    border-radius: 50%;
+    border:5px solid black;
+    text-align: left;
+}
+h4
+{
+    font-size: 2.5em;
+    font-family: "Trirong", serif;
+    text-align: Right;
+}
+p
+{
+    font-size: 20px;
+}
+body
+{
+    background-color: #f9ffe6;
+}
+head
+{
+    background-color: #7c1414;
+}
