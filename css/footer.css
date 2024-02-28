@@ -1,0 +1,54 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* Styles for browser window is widder than 800px */
+* {
+  box-sizing: border-box;
+  font-family:"Lucida Grande";
+  width:80%;
+  margin:0 auto;
+}
+.flex-container{
+  display: flex;
+  flex-wrap: wrap;
+  text-align: left;
+  background-color: #7d7d7d;
+}
+.flex-item-left
+{
+flex:40%;
+}
+.flex-item-center
+{
+flex:30%;
+}
+.flex-item-right
+{
+flex:30%;
+}
+.footer-bottom
+{
+  display: flex;
+  text-align: left;
+  flex:100%;
+  background-color: #acacac;
+}
+ul
+{
+  list-style-type: none;
+}
+/* Start: tell browser to do the followings when browser window is 800px or smaller */
+  @media only screen and (max-width: 800px)
+  {
+.flex-item-center, .flex-item-left, .flex-item-right
+{
+  flex:100%;
+  background-color: rgb(194, 17, 17);
+}
+ul {
+  list-style-type: none;
+}
+
+
+
+} /* don't forget to close the styles for 800px and smaller */
